@@ -166,3 +166,6 @@ zsh: command not found: pymol
 
 ```
 
+## 10. The location of the created virtual environment
+### HD > Users >> opt > anaconda3 > envs
+
