@@ -169,3 +169,44 @@ zsh: command not found: pymol
 ## 10. The location of the created virtual environment
 ### HD > Users >> opt > anaconda3 > envs
 
+## 11. Show the list of all the installed modules in the virtual environment by "pip freeze"
+```
+(base) Koitaro@MacBook-Pro-3 anaconda3 % cd envs
+(base) Koitaro@MacBook-Pro-3 envs % ls
+biophysics_435	mypymol
+(base) Koitaro@MacBook-Pro-3 envs % cd biophysics_435 
+(base) Koitaro@MacBook-Pro-3 biophysics_435 % conda activate biophysics_435
+(biophysics_435) Koitaro@MacBook-Pro-3 biophysics_435 % pip freeze
+absl-py==0.10.0
+astor==0.8.1
+certifi==2020.6.20
+deepchem @ file:///home/conda/feedstock_root/build_artifacts/deepchem_1591814243579/work
+gast==0.4.0
+google-pasta==0.2.0
+grpcio==1.31.0
+h5py==2.10.0
+importlib-metadata==1.7.0
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1593624380152/work
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.2
+Markdown==3.2.2
+numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1597938419070/work
+olefile==0.46
+pandas @ file:///Users/runner/miniforge3/conda-bld/pandas_1598294665694/work
+Pillow @ file:///Users/runner/miniforge3/conda-bld/pillow_1594212133169/work
+protobuf==3.13.0
+pycairo==1.19.1
+python-dateutil==2.8.1
+pytz==2020.1
+scikit-learn==0.21.3
+scipy @ file:///Users/runner/miniforge3/conda-bld/scipy_1595583590545/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+tensorboard==1.14.0
+tensorflow==1.14.0
+tensorflow-estimator==1.14.0
+termcolor==1.1.0
+Werkzeug==1.0.1
+wrapt==1.12.1
+zipp==3.1.0
+```
+
